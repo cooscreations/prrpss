@@ -1,0 +1,39 @@
+<?php
+
+// ////////////////////////////////////////////////
+// ////////////////////////////////////////////////
+// ////////////////////////////////////////////////
+/* ////// */     session_start ();     /* ////// */
+// ////////////////////////////////////////////////
+// ////////////////////////////////////////////////
+//   now check the user is OK to view this page  //
+/* ///// */  require ('page_access.php');  /*////*/
+// ////////////////////////////////////////////////
+// ////////////////////////////////////////////////
+// ////////////////////////////////////////////////
+
+
+$page_ID = "80";
+include 'page_functions.php';
+include 'db_conn.php';
+
+page_head($page_ID);
+?>
+
+<!-- start: page -->
+
+<h2>Ramblings...</h2>
+
+<p>Please note that this may be <a href="https://github.com/cooscreations/prrpss" target="_blank">migrated to GitHub</a> at some point.</p>
+
+<ol>
+  <li>TIMESTAMP on created_date seems to be forcing database to update to current timestamp on update (NG)</li>
+</ol>
+
+<!-- end: page -->
+
+
+		<?php
+
+page_foot($page_ID);
+?>

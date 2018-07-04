@@ -1,0 +1,13 @@
+SUB DOMAINS THAT NEED SETTING UP:
+
+vacancies
+power
+network
+security
+hardware
+technology
+currency
+help
+contact
+purchase
+about
